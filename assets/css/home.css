@@ -1,0 +1,422 @@
+/* 1. Carousel */
+
+#carouselContainer {
+    height: 450px;
+    padding-top: 59px;
+    background-image: url(../img/slider1.png);
+}
+
+#roCarousel {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-caption {
+    bottom: 60px;
+}
+
+.carousel-caption h2 {
+    text-transform: uppercase; 
+}
+
+/* .carousel-caption i {
+    padding-right: 7px;    
+} */
+
+/* .carousel-item-annotation {
+    font-size: 0.8em;
+    color: #FECE1A;
+    padding-bottom: 7px;
+} */
+
+.ro-carousel-btn {
+    margin: 0 7px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.ro-carousel-btn:hover {
+    border: 1px solid #FECE1A;
+    color: #FECE1A;
+}
+
+/* 2. Main info section */
+
+#mainInfoSection {
+    min-height: 100px;
+}
+
+.main-info-container {
+    height: 100%;
+    text-align: center;
+}
+
+.main-info-container h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.main-info-container hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.main-contact-container {
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+.main-contact-container a {
+    color: #101316;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.social-icon:hover {
+    color: #fff;
+    text-shadow: 1px 1px 2px #101316;
+}
+
+.main-contact-container i {
+    padding: 0 5px;
+}
+
+#newLineMainInfo {
+    display: none;
+}
+
+#newLineIconsMainInfo {
+    display: none;
+}
+
+#lastNewsMainInfo, #aboutMainInfo {
+    margin-top: 55px;
+    text-align: left;
+}
+
+.news-container-main-info {
+    min-height: 250px;
+    margin-bottom: 16px;
+}
+
+.news-main-info {
+    height: 70px;
+}
+
+.news-main-info h6 {
+    padding: 0 0;
+    font-size: 11px;
+}
+
+.news-main-info hr {
+    height: 1px;
+    margin-bottom: -5.2px;
+    background-color: #FECE1A;
+}
+
+.news-header-main-info {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#centralNewsMainInfo {
+    margin: 20px 0;
+}
+
+#viewNewsBtnMainInfo {
+    margin-top: -52px;
+    float: right;
+    padding-right: 20px;
+}
+
+#viewNewsBtnMainInfo span {
+    font-size: 13px;
+    text-transform: uppercase;
+    display: none;
+    color: #101316;
+    text-shadow: none;
+}
+
+#textMainInfo {
+    min-height: 250px;
+}
+
+#aboutHeaderMainInfo {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #101316; 
+}
+
+#textBtnMainInfo, #moreNewsBtnMainInfo {
+    border: 1px solid #101316;
+    border-radius: inherit;
+}
+
+#textBtnMainInfo:hover, #moreNewsBtnMainInfo:hover {
+    background-color: #101316;
+    color: #fff;
+}
+
+/* 3. Company services */
+
+#servicesSection {
+    height: 450px;
+    padding: 0;
+}
+
+.services-header{
+    text-align: center;
+}
+
+.services-header h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.services-header hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.services-wrapper {
+    margin-top: 20px;
+    height: 100%;
+    background-image: url(../img/services.png)
+}
+
+.services-container {
+    height: 100%;
+}
+
+.service-row {
+    height: 100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+.service-box {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.service-box:hover {
+    cursor: pointer;
+}
+
+.service-box h5 {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#serviceLogoServicesSection {
+    padding-top: 170px;
+    font-size: 3em;
+}
+
+.service-body hr {
+    display: none;
+}
+
+.service-body p {
+    display: none;
+}
+
+.service-footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+.hide-service-icon {
+    display: none;
+}
+
+.service-footer span {
+    text-transform: uppercase;
+    position: relative;
+    bottom: 5px;
+    padding-left: 50px;
+    display: none;
+}
+
+#serviceCarousel {
+    display: none;
+}
+
+/* 4. Clients info  */
+
+#clientsInfoSection {
+    margin-top: 75px;
+    min-height: 100px;
+}
+
+.clients-info-header{
+    text-align: center;
+}
+
+.clients-info-header h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.clients-info-header hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.clients-info-main-container {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.clients-info-main-container p {
+    margin-bottom: 20px;
+}
+
+.subscribe-container {
+    padding: 0 150px;
+}
+
+.subscribe-container input {
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.subscribe-container input:focus {
+    box-shadow: none !important;
+}
+
+.subscribe-btn {
+    margin-left: 20px;
+    border: 1px solid #101316;
+    color: #101316;
+    border-radius: 0;
+}
+
+.subscribe-btn:hover {
+    color: #fff;
+    background-color: #101316;
+}
+
+.subscribe-checkbox input {
+    font-size: 14px;
+}
+
+.subscribe-checkbox {
+    font-size: 12px;
+    padding: 0 150px;
+}
+
+.subscribe-checkbox a {
+    color: #101316;
+    text-decoration: underline;
+}
+
+#subscribeBtnClientsInfo {
+    z-index: 0 !important;
+}
+
+#confirmPDNTextModal {
+    border-radius: 0;
+    font-size: 15px;
+    background-color: #FECE1A;
+    border: 1px solid #101316;
+    color: #101316;
+}
+
+#confirmPDNTextModal:hover {
+    background-color: #15ff00;
+    border: 1px solid #15ff00;
+    color: #fff;
+}
+
+#closePDNTextModal {
+    background-color: #fff;
+    color: #101316;
+    border: 1px solid #101316;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+#closePDNTextModal:hover {
+    background-color: #615f5f;
+    color: #fff;
+    border: 1px solid #615f5f;
+}
+
+.subscribe-error-msg {
+    color: red;
+    display: none;
+}
+
+.subscribe-error-msg p {
+    margin-bottom: 16px;
+}
+
+#rowClientsInfoSection {
+    text-align: left;
+    margin-top: 55px;
+    padding-bottom: 15px;
+}
+
+#feedbackHeaderClientsInfo, #legalHeaderClientsInfo {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #101316;
+}
+
+.col-text-clients-info {
+    min-height: 170px;
+    font-size: 15px;
+}
+
+.text-btn-clients-info {
+    border: 1px solid #101316;
+    border-radius: 0;
+    color: #101316;
+}
+
+.text-btn-clients-info:hover {
+    background-color: #101316;
+    color: #fff;
+}
+
+/* 5. Map section */
+
+#mapSection {
+    text-align: center;
+}
+
+.map-header-container h6 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0 0;
+}
+
+.map-header-container hr {
+    background-color: #101316;
+    margin: 0 0;
+}
+
+.map-container {
+    margin-top: 20px;
+    height: 450px;
+    padding: 0;
+}

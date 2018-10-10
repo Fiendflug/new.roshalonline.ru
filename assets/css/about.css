@@ -1,0 +1,18 @@
+/* About company section */
+
+#aboutCompanySection {
+    padding-top: 59px;
+    min-height: 450px;
+    background-image: url(../img/about_company.png);
+}
+
+.about-company-container {
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+
+.about-company-container h2 {    
+    padding-top: 50px;
+    text-transform: uppercase;
+}
